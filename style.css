@@ -1,15 +1,9 @@
-title{
-    font-size: medium;
-    font-style: italic;
-    font-weight: 100;
-    text-align: center;
-    color: papayawhip;
-
-}
-body{
+body
+{
     background-color: black;
     
 }
+
 p{
     color: orangered;
 }
