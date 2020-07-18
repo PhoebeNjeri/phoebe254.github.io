@@ -28,9 +28,9 @@ function getAkanName(gender, yy, mm, dd, cc = 20) {
 
   // The date function rounded off to the nearest digit.
   let day = Math.round(
-    (cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7
-  );
-
+    (cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) 
+  )% 7;
+console.log(day)
   // Return the object value using the key
   // (this is the result of the calculation)
   // given the gender.
@@ -53,5 +53,6 @@ form.addEventListener("submit", function(e) {
 
   // Get the akan name from the function.
   let name = getAkanName(gender, year, month, day);
+  console.log(name)
   document.querySelector("#result").innerHTML = name;
 }); 
