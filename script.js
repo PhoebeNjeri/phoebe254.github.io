@@ -54,4 +54,4 @@ form.addEventListener("submit", function(e) {
   // Get the akan name from the function.
   let name = getAkanName(gender, year, month, day);
   document.querySelector("#result").innerHTML = name;
-});
+}); 
