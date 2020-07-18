@@ -3,6 +3,11 @@ body
     background-color: black;
     
 }
+h1{
+    font-style: italic;
+    color: papayawhip;
+}
+
 
 p{
     color: orangered;
