@@ -7,6 +7,11 @@ form{
   font-family: verdana;
   color: white;
 }
+body
+{
+    background-image: url(/images/istockphoto-489649033-1024x1024.jpg)
+    
+}
   input[type =text]{
   width: 80%;
   padding: 5px;
@@ -16,11 +21,6 @@ input[type =submit]{
   padding: 5px;
   font-size: 20px;
   width: 100px;
-}
-body
-{
-    background-color: ;
-    
 }
 h1{
     font-style: italic;
