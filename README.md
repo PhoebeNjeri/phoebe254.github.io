@@ -3,7 +3,7 @@
 ### AUTHOR NAME
 #### Phoebe Njeri
 ##### set up
-###### open this link on a supported web browser to interact with the application: https://github.com/PhoebeNjeri/phoebe254.github.io
+###### open this link on a supported web browser to interact with the application: file:///home/phoebe/Documents/moringa-school-projects/phoebe254.github.io/index.html
 # BDD
 ## install visual studio code
 ### git init
