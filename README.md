@@ -4,6 +4,8 @@
 #### Phoebe Njeri
 ##### set up
 ###### open this link on a supported web browser to interact with the application: file:///home/phoebe/Documents/moringa-school-projects/phoebe254.github.io/index.html
+## Live link
+* https://phoebenjeri.github.io/phoebe254.github.io/
 # BDD
 ## install visual studio code
 ### git init
@@ -21,4 +23,5 @@ https://github.com/PhoebeNjeri/phoebe254.github.io
 ## license
 MIT license 
 copyright &copy; 2020 Phoebe
+
 
