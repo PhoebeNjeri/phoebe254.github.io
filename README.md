@@ -12,7 +12,13 @@ https://github.com/PhoebeNjeri/phoebe254.github.io
 ##### Open the folder where the cloned repsitory is saved
 ###### When the user inputs Date Month and Year the system tells him or her which day of the week they were born and their Akan names.
 # Technologies used
-HTML 
-CSS
-BOOTSTRAP
-JAVASCRIPT
+* HTML 
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
+# Contact information
+* Email:Phoebegichuhi4@gmail.com
+## license
+MIT license 
+copyright &copy; 2020 Phoebe
+
