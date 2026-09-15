@@ -1,65 +1,76 @@
-<!DOCTYPE>
-<html>
-    <head>
-        <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <script src="script.js" defer></script>
-      <link rel="stylesheet"href="style.css">
-<title>AKAN NAMES</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Names</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Akan Names</h1>
+        <p class="subtitle">Discover the name your day of birth gives you</p>
+      </div>
+    </header>
 
-    </head>
-    <body>
-        <h1>AKAN NAME</h1>
-        <p style="text-align:center;">The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.</p>
-        <h2>This is a modern system that generates Akan names in Ghana culture according to day you were born given the Date of Birth that the user entered on the system.
-        </h2>
-        <p style="text-align:center;">Lets checkout your Akan name</p>
-        <h3>Enter your correct details on the form?</h3>
-        <div class="Enter">
+    <main>
+      <section class="intro">
+        <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. Each day carries a unique name that reflects the qualities and destiny associated with that day.</p>
+      </section>
 
-           <div class="form">
-             <form id="akanForm" method="POST">
-               <table>
-                 <tr>
-                   <td>
-                     Day:
-                   </td>
-                   <td>
-                     <input id="bday-day" type="number" name="bday-day" min="1" max="31" autocomplete="bday-day" autofocus required>
-                   </td>
-                 </tr>
-                 <tr>
-                  <td>
-                    Month:
-                  </td>
-                  <td>
-                    <input id="bday-month" type="number" name="bday-month" min="1" max="12" autocomplete="bday-month" required>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Year:
-                    </td>
-                    <td>
-                      <input id="bday-year" type="number" name="bday-year" min="1930" max="2019" autocomplete="bday-year" required>
-                    </td>
-                    </tr>
-                 <tr>
-                   <td>
-                     Gender:<br>
-                   </td>
-                   <td>
-                     <input type="radio" name="gender" id="male" value="male" checked>Male<br>
-                     <input type="radio" name="gender" id="female" value="female">Female<br>
-                   </td>
-                 </tr>
-               </table><br><br><br>
-               <input class="button" type="submit" name="submit" value="submit">
-             </form>
-             
-             <div id="result"><div>
+      <section class="form-section">
+        <div class="card">
+          <h2>Find Your Akan Name</h2>
+          <p class="card-subtitle">Enter your birth details below</p>
+
+          <form id="akanForm">
+            <div class="form-group">
+              <label for="bday-day">Day</label>
+              <input id="bday-day" type="number" name="bday-day" min="1" max="31" placeholder="DD" autocomplete="bday-day" autofocus required>
             </div>
-          </div>
-      </body>
-    </html>
+
+            <div class="form-group">
+              <label for="bday-month">Month</label>
+              <input id="bday-month" type="number" name="bday-month" min="1" max="12" placeholder="MM" autocomplete="bday-month" required>
+            </div>
+
+            <div class="form-group">
+              <label for="bday-year">Year</label>
+              <input id="bday-year" type="number" name="bday-year" min="1900" max="2099" placeholder="YYYY" autocomplete="bday-year" required>
+            </div>
+
+            <fieldset class="form-group">
+              <legend>Gender</legend>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="gender" id="male" value="male" checked>
+                  <span class="radio-custom"></span>
+                  Male
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="gender" id="female" value="female">
+                  <span class="radio-custom"></span>
+                  Female
+                </label>
+              </div>
+            </fieldset>
+
+            <button type="submit" class="btn-submit">Get My Akan Name</button>
+          </form>
+
+          <div id="result" class="result hidden"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Akan Names Generator &mdash; Celebrating Ghanaian Culture</p>
+    </footer>
+  </body>
+</html>
